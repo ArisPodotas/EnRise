@@ -1,0 +1,51 @@
+
+/* head {color:blue; font-size:12px;} */
+
+body {background-color:black; font-size:12px;}
+
+#forest, #biomass {
+    border-radius: 50%;
+}
+
+#header{
+    background-color: "LightBlue";
+    background-image: url("../Enrise logo/enrisesquarelight.png/");
+}
+
+#intro {
+    background-color: blue;
+    background-image: url("../Enrise logo/enrisesquarelight.png/");
+}
+
+#problem {
+    background-color: white;
+}
+
+#solution {
+    background-color: blue;
+}
+
+#product {
+    background-color: white;
+}
+
+#footer{
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#slogan {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#model {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
