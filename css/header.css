@@ -1,0 +1,58 @@
+/* File wide variables */
+* {
+  box-sizing: border-box;
+}
+
+:root{
+    /* logo light blue */
+    --logol: #2b4e61;
+    /* Gradient dark*/
+    --grad1: #4d6c93;
+    /* The light gradient color btw */
+    --grad2: #7597c0;
+    /* The whites */
+    --logow: #fbfaff;
+    /* logo dark balck*/
+    --logod: #2e2e2e;
+    /* Slide blue */
+    --slidesb: #90aecc;
+    /* Fonts */
+    --sloganf: Libre Franklin;
+    --backupfont: Verdana;
+    --slogans: 57;
+}
+
+#tabline{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+#fimg{
+    width: 50px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#pages{
+    padding-top: 20px;
+}
+
+#linkedin{
+    width: 28px;
+    margin-top: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#insta{
+    width: 28px;
+    margin-top: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+

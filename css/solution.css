@@ -1,0 +1,96 @@
+/* File wide variables */
+* {
+  box-sizing: border-box;
+}
+
+:root{
+    /* logo light blue */
+    --logol: #2b4e61;
+    /* Gradient dark*/
+    --grad1: #4d6c93;
+    /* The light gradient color btw */
+    --grad2: #7597c0;
+    /* The whites */
+    --logow: #fbfaff;
+    /* logo dark balck*/
+    --logod: #2e2e2e;
+    /* Slide blue */
+    --slidesb: #90aecc;
+    /* Fonts */
+    --sloganf: Libre Franklin;
+    --backupfont: Verdana;
+    --slogans: 57;
+}
+
+#solution{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+}
+
+#firsts{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(12, 50px);
+}
+
+#seconds{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(12, 50px);
+}
+
+#firstst{
+    grid-column: 7 / 13;
+    grid-row: 3 / 13;
+    background-color: var(--logow);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+#secondst{
+    grid-column: 1 / 7;
+    grid-row: 1 / 7;
+    background-color: var(--logow);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+#firstsi{
+    grid-column: 1 / 8;
+    grid-row: 1 / 10;
+}
+
+#secondsi{
+    grid-column: 6 / 13;
+    grid-row: 3 / 9;
+}
+
+#im1{
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+#im2{
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+#innderfirst{
+    text-align: center;
+    margin: 8%;
+}
+
+#inndersec{
+    text-align: center;
+    margin: 8%;
+}
+
