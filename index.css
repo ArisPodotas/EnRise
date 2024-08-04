@@ -266,7 +266,7 @@ footer{
     color: var(--logod);
     background-color: var(--logow);
     display: grid;
-    grid-template-columns: repeat(auto-fit, 16%);
+    grid-template-columns: repeat(auto-fit, minmax(18%, 1fr));
     grid-template-rows: repeat(4, 100px);
 }
 
