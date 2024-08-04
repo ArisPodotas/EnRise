@@ -48,8 +48,9 @@ body{
 }
 
 #tabline{
+    width: 100%;
     display: grid;
-    grid-template-columns: 80% auto auto auto 5%;
+    grid-template-columns: 70% auto auto auto 5%;
     grid-template-rows: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
 }
@@ -62,8 +63,8 @@ body{
 }
 
 #pages{
-    margin-top: 25%;
-    margin-bottom: 25%;
+    margin-top: 22%;
+    margin-bottom: 22%;
 }
 
 #linkedin{
@@ -122,7 +123,6 @@ body{
 }
 
 #model, #Name, #slogan {
-    font-size: 20px;
     text-align: center;
     color: var(--logow);
 }
@@ -130,29 +130,60 @@ body{
 /* Section break ============= */
 
 #problem{
+    width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
     background-color: var(--logow);
     display: grid;
-    grid-template-columns: 25% auto auto 25%;
-    grid-template-rows: auto auto;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
 }
 
-#forest, #biomass {
+#biomass {
     padding-top: 10px;
-    border-radius: 75%;
+    border-radius: 100%;
     transition: .5s ease;
-    width: 180px;
+    width: 43%;
+    height: 90%;
     margin: auto;
     display: block;
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+
+#forest{
+    padding-top: 10px;
+    border-radius: 100%;
+    transition: .5s ease;
+    width: 40%;
+    height: 90%;
+    margin: auto;
+    display: block;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
 }
 
 #forest:hover, #biomass:hover {
     opacity: 0.3;
 }
 
+#p1{
+    margin: 10px;
+    text-align: center;
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+}
+
+#p2{
+    margin: 10px;
+    text-align: center;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+
 /* Section break ============= */
 
 #solution{
+    width: 100%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
@@ -164,8 +195,8 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     display: grid;
-    width: auto;
-    grid-template-columns: auto repeat(10, 100px) auto;
+    width: 100%;
+    grid-template-columns: repeat(12 auto);
     grid-template-rows: repeat(12, 50px);
 }
 
@@ -181,7 +212,18 @@ body{
     grid-row: 1 / 10;
 }
 
+#im1{
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+#im2{
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
 #innderfirst{
+
     text-align: center;
     margin: 8%;
 }
@@ -208,9 +250,9 @@ body{
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    width: auto;
+    width: 100%;
     display: grid;
-    grid-template-columns: auto repeat(10, 100px) auto;
+    grid-template-columns: repeat(12, auto);
     grid-template-rows: repeat(10, 50px);
 }
 
