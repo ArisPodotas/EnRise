@@ -23,8 +23,7 @@ footer{
     background-color: var(--logow);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(100px, 150px));
-    column-gap: 5%;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 170px));
     row-gap: 10%;
 }
 

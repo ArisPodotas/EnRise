@@ -39,6 +39,7 @@
     grid-row: 1 / 13;
     opacity: 1;
     margin: auto;
+    width: 1fr;
     display: block;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -63,5 +64,10 @@
 #model, #Name, #slogan {
     text-align: center;
     color: var(--logow);
+    text-wrap: wrap;
+}
+
+#emailinp{
+    width: .3fr;
 }
 
