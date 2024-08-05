@@ -28,6 +28,7 @@
 }
 
 #intro{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(12, auto);
     grid-template-rows: repeat(12, auto);
@@ -37,8 +38,8 @@
     grid-column: 1 / 13;
     grid-row: 1 / 13;
     opacity: 1;
+    margin: auto;
     display: block;
-    width: 100%;
     transition: .5s ease;
     backface-visibility: hidden;
     transition: .5s ease;
