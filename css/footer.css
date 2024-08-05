@@ -23,7 +23,7 @@ footer{
     background-color: var(--logow);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
-    grid-template-rows: repeat(4, 100px);
+    grid-template-rows: repeat(auto-fit, minmax(70px, 100px));
     column-gap: 5%;
     row-gap: 10%;
     justify-content: space-evenly;
@@ -37,16 +37,6 @@ footer{
     display: block;
     margin: auto;
     text-wrap: wrap;
-}
-
-#footerTable{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(4, auto);
-}
-
-.tbl{
-    margin: auto;
     text-align: center;
 }
 
