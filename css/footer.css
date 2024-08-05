@@ -1,8 +1,4 @@
 /* File wide variables */
-* {
-  box-sizing: border-box;
-}
-
 :root{
     /* logo light blue */
     --logol: #2b4e61;
@@ -26,17 +22,41 @@ footer{
     color: var(--logod);
     background-color: var(--logow);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
     grid-template-rows: repeat(4, 100px);
     column-gap: 5%;
     row-gap: 10%;
     justify-content: space-evenly;
 }
 
+#logoFooter{
+    width: 50px;
+}
+
 .footer{
-    margin-top: 4%;
-    margin-bottom: 4%;
-    margin-left: 8px;
-    margin-right: 8px;
+    display: block;
+    margin: auto;
+    text-wrap: wrap;
+}
+
+#footerTable{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+}
+
+.tbl{
+    margin: auto;
+    text-align: center;
+}
+
+#lf{
+    width: 28px;
+    margin: 1%;
+}
+
+#if{
+    width: 28px;
+    margin: 1%;
 }
 

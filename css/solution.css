@@ -1,8 +1,4 @@
 /* File wide variables */
-* {
-  box-sizing: border-box;
-}
-
 :root{
     /* logo light blue */
     --logol: #2b4e61;

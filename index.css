@@ -1,9 +1,31 @@
+/* File wide variables */
+* {
+  box-sizing: border-box;
+}
+
+:root{
+    /* logo light blue */
+    --logol: #2b4e61;
+    /* Gradient dark*/
+    --grad1: #4d6c93;
+    /* The light gradient color btw */
+    --grad2: #7597c0;
+    /* The whites */
+    --logow: #fbfaff;
+    /* logo dark balck*/
+    --logod: #2e2e2e;
+    /* Slide blue */
+    --slidesb: #90aecc;
+    /* Fonts */
+    --sloganf: Libre Franklin;
+    --backupfont: Verdana;
+    --slogans: 57;
+}
+
 header{
     background-color: var(--logow);
     color: var(--logod);
 }
-
-/* Section break ============= */
 
 body{
     background-image: linear-gradient(to right, var(--grad1), var(--grad2), var(--grad1));
