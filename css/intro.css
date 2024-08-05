@@ -30,17 +30,17 @@
 #intro{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(12, auto);
-    grid-template-rows: repeat(12, auto);
+    grid-template-columns: repeat(auto-fit, minmax(50px, 200px));
+    grid-template-rows: repeat(auto-fit, minmax(50px, 200px));
 }
 
 #logo {
-    grid-column: 1 / 13;
-    grid-row: 1 / 13;
+    grid-column: 1 / 12;
+    grid-row: 1 / 12;
     opacity: 1;
     margin: auto;
-    width: 1fr;
     display: block;
+    width: 1fr;
     transition: .5s ease;
     backface-visibility: hidden;
     transition: .5s ease;

@@ -31,8 +31,8 @@
     margin-left: 10%;
     margin-right: 10%;
     display: grid;
-    grid-template-columns: repeat(12, 100px);
-    grid-template-rows: repeat(12, 50px);
+    grid-template-columns: repeat(auto-fit, minmax(50px, 200px));
+    grid-template-rows: repeat(auto-fit, minmax(50px, 200px));
 }
 
 #seconds{
@@ -42,7 +42,7 @@
     margin-right: 10%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 200px));
-    grid-template-rows: repeat(auto-fit, minman(50px, 200px));
+    grid-template-rows: repeat(auto-fit, minmax(50px, 200px));
 }
 
 #firstst{
