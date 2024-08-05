@@ -23,8 +23,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
     background-color: var(--logow);
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(auto-fit, 50%);
+    grid-template-rows: repeat(auto-fit, 1fr);
 }
 
 #biomass {

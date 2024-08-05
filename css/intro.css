@@ -22,7 +22,6 @@
     opacity: 0.3;
 }
 
-
 .container#intro:hover #callToAction{
     opacity: 1;
 }
@@ -30,17 +29,19 @@
 #intro{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 200px));
-    grid-template-rows: repeat(auto-fit, minmax(50px, 200px));
+    grid-template-columns: repeat(auto-fit, minmax(1%, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(1%, 1fr));
+    justify-items: center;
+    align-items: center;
 }
 
 #logo {
-    grid-column: 1 / 12;
-    grid-row: 1 / 12;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
     opacity: 1;
     margin: auto;
     display: block;
-    width: 1fr;
+    width: auto;
     transition: .5s ease;
     backface-visibility: hidden;
     transition: .5s ease;
@@ -49,8 +50,9 @@
 }
 
 #callToAction{
-    grid-column: 6 / 8;
-    grid-row: 6 / 8;
+    grid-column: 1 / 1;
+    width: minmax(1%, 100%);
+    grid-row: 1 / 1;
     transition: .5s ease;
     opacity: 0;
     transform: translate(0%, 0%);

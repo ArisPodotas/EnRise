@@ -22,7 +22,7 @@ footer{
     color: var(--logod);
     background-color: var(--logow);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(100px, 170px));
     row-gap: 10%;
 }
@@ -38,12 +38,7 @@ footer{
     text-align: center;
 }
 
-#lf{
-    width: 28px;
-    margin: 1%;
-}
-
-#if{
+#lf, #if, #tf, #ff{
     width: 28px;
     margin: 1%;
 }
