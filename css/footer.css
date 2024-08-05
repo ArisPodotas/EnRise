@@ -22,11 +22,10 @@ footer{
     color: var(--logod);
     background-color: var(--logow);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(70px, 100px));
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(100px, 150px));
     column-gap: 5%;
     row-gap: 10%;
-    justify-content: space-evenly;
 }
 
 #logoFooter{
