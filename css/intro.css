@@ -29,8 +29,8 @@
 #intro{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1%, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(1%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
+    grid-template-rows: repeat(auto-fit, minmax(0%, 100%));
     justify-items: center;
     align-items: center;
 }
@@ -41,7 +41,7 @@
     opacity: 1;
     margin: auto;
     display: block;
-    width: auto;
+    width: 90%;
     transition: .5s ease;
     backface-visibility: hidden;
     transition: .5s ease;
