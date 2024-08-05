@@ -31,6 +31,35 @@ body{
     background-image: linear-gradient(to right, var(--grad1), var(--grad2), var(--grad1));
     margin: 0;
     font-family: 'Libre Franklin', Verdana;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.link{
+    color: var(--logod);
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* @media (min-width: 475px) {.container {max-width: 475px;}} */
+/**/
+/* @media (min-width: 640px) {.container {max-width: 640px;}} */
+/**/
+/* @media (min-width: 768px) {.container {max-width: 768px;}} */
+/**/
+/* @media (min-width: 1024px) {.container {max-width: 1024px;}}  */
+/**/
+/* @media (min-width: 1280px) {.container {max-width: 1280px;}} */
+/**/
+/* @media (min-width: 1536px) {.container {max-width: 1536px;}} */
+/**/
