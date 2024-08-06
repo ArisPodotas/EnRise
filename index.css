@@ -51,15 +51,17 @@ body{
     text-decoration: underline;
 }
 
-/* @media (min-width: 475px) {.container {max-width: 475px;}} */
-/**/
-/* @media (min-width: 640px) {.container {max-width: 640px;}} */
-/**/
-/* @media (min-width: 768px) {.container {max-width: 768px;}} */
-/**/
-/* @media (min-width: 1024px) {.container {max-width: 1024px;}}  */
-/**/
-/* @media (min-width: 1280px) {.container {max-width: 1280px;}} */
-/**/
-/* @media (min-width: 1536px) {.container {max-width: 1536px;}} */
-/**/
+@media (min-width: 1px) {body{font-size: 4px;}}
+@media (min-width: 275px) {body{font-size: 6px;}}
+@media (min-width: 475px) {body{font-size: 8px;}}
+@media (min-width: 640px) {body{font-size: 12px;}}
+@media (min-width: 768px) {body{font-size: 16px;}}
+@media (min-width: 1024px) {body{font-size: 20px;}} 
+@media (min-width: 1280px) {body{font-size: 28px;}}
+/*90% or less*/
+@media (min-width: 1536px) {body{font-size: 32px;}}
+@media (min-width: 1800px) {body{font-size: 38px;}}
+@media (min-width: 2000px) {body{font-size: 46px;}}
+@media (min-width: 2250px) {body{font-size: 54px;}}
+@media (min-width: 2350px) {body{font-size: 62px;}}
+@media (min-width: 2500px) {body{font-size: 72px;}}
