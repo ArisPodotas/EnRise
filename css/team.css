@@ -8,16 +8,23 @@ main{
 
 .format{
     padding: 10%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
     grid-template-rows: repeat(auto-fit, minmax(0%, 100%));
     justify-items: center;
     align-items: center;
-    text-wrap: wrap;
     text-align: center;
 }
 
 .member{
     border-radius: 100%;
     width: 50%;
+    grid-area: 1 / 1 / 4 / 1;
 }
+
+.contact{
+    grid-area: 1 / 2 / 4 / 2;
+    text-wrap: wrap;
+}
+
