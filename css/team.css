@@ -11,6 +11,10 @@ main{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
     grid-template-rows: repeat(auto-fit, minmax(0%, 100%));
+    justify-items: center;
+    align-items: center;
+    text-wrap: wrap;
+    text-align: center;
 }
 
 .member{
