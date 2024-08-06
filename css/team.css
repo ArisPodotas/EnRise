@@ -24,7 +24,24 @@ main{
 }
 
 .contact{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
+    grid-template-rows: repeat(auto-fit, minmax(0%, 100%));
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.doc{
     grid-area: 1 / 2 / 4 / 2;
     text-wrap: wrap;
 }
 
+.tbl{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
+    grid-template-rows: repeat(auto-fit, minmax(0%, 100%));
+    justify-items: ceter;
+    align-items: center;
+
+}
