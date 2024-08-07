@@ -1,0 +1,26 @@
+main{
+    margin: 5%;
+}
+
+.bounder{
+    margin: 5%;
+    background-color: var(--logow);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+}
+
+.topdown{
+    padding: 5%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
+    grid-template-rows: repeat(auto-fit, minmax(0%, 100%));
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.head{
+    border-radius: 10%;
+    width: 100%;
+}

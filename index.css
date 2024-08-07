@@ -1,3 +1,9 @@
+/* Project name: EnRise */
+/* Collaborators: Aris Podotas */
+/* Country: Greece */
+/* City: Athens */
+/* Date: 06-08-2024 */
+
 /* File wide variables */
 * {
   box-sizing: border-box;
@@ -58,11 +64,12 @@ body{
 @media (min-width: 640px) {body{font-size: 12px;}}
 @media (min-width: 768px) {body{font-size: 16px;}}
 @media (min-width: 1024px) {body{font-size: 20px;}} 
-@media (min-width: 1280px) {body{font-size: 28px;}}
+@media (min-width: 1280px) {body{font-size: 24px;}}
 /*90% or less*/
-@media (min-width: 1536px) {body{font-size: 32px;}}
-@media (min-width: 1800px) {body{font-size: 38px;}}
+@media (min-width: 1536px) {body{font-size: 30px;}}
+@media (min-width: 1800px) {body{font-size: 36px;}}
 @media (min-width: 2000px) {body{font-size: 46px;}}
-@media (min-width: 2250px) {body{font-size: 54px;}}
-@media (min-width: 2350px) {body{font-size: 62px;}}
-@media (min-width: 2500px) {body{font-size: 72px;}}
+@media (min-width: 2400px) {body{font-size: 56px;}}
+@media (min-width: 3200px) {body{font-size: 72px;}}
+@media (min-width: 3800px) {body{font-size: 84px;}}
+@media (min-width: 4200px) {body{font-size: 100px;}}

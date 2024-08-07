@@ -1,13 +1,18 @@
-main{
-    margin: 5%;
-}
+/* Project name: EnRise */
+/* Collaborators: Aris Podotas */
+/* Country: Greece */
+/* City: Athens */
+/* Date: 06-08-2024 */
+
 .entry{
     background-color: var(--logow);
     margin: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
 }
 
 .format{
-    padding: 10%;
+    padding: 5%;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
@@ -19,8 +24,12 @@ main{
 
 .member{
     border-radius: 100%;
-    width: 50%;
+    width: 100%;
     grid-area: 1 / 1 / 4 / 1;
+}
+
+.names{
+    color: var(--grad1);
 }
 
 .contact{
@@ -33,6 +42,7 @@ main{
 }
 
 .doc{
+    padding: 3%;
     grid-area: 1 / 2 / 4 / 2;
     text-wrap: wrap;
 }
@@ -43,5 +53,5 @@ main{
     grid-template-rows: repeat(auto-fit, minmax(0%, 100%));
     justify-items: ceter;
     align-items: center;
-
 }
+
