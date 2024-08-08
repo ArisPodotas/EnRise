@@ -1,0 +1,22 @@
+#learnm{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template: repeat(auto-fit, minmax(0%, 100%)) repeat(auto-fit, minmax(0%, 100%));
+}
+
+.button{
+    background-color: var(--logow);
+    border-radius: 10%;
+    margin: minmax(5%, 50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+#held{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-wrap: wrap;
+    text-align: center;
+}

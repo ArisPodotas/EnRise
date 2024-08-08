@@ -9,7 +9,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
     background-color: var(--logow);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
+    grid-template-columns: repeat(auto-fit, minmax(0%, 50%));
     grid-template-rows: repeat(auto-fit, minmax(0%, 100%));
 }
 
@@ -40,6 +40,8 @@
 }
 
 #p1{
+    text-wrap: wrap;
+    text-align: center;
     margin: 10px;
     text-align: center;
     grid-column: 1 / 1;
@@ -47,7 +49,11 @@
 }
 
 #p2{
+    text-wrap: wrap;
+    text-align: center;
     margin: 10px;
     text-align: center;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
 }
 

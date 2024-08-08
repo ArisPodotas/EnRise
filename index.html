@@ -21,6 +21,10 @@
         <link rel = "stylesheet" href = "./css/header.css">
         <link rel = "stylesheet" href = "./css/problem.css">
         <link rel = "stylesheet" href = "./css/solution.css">
+        <link rel = "stylesheet" href = "./css/learn.css">
+        <link rel = "stylesheet" href = "./css/form.css">
+        <link rel = "stylesheet" href = "./css/stats.css">
+        <link rel = "stylesheet" href = "./css/disclaimer.css">
     </head>
 
     <body>
@@ -56,10 +60,9 @@
                 <div id = "callToAction" class = "element">
                     <pre>Recieve updates from us</pre>
                     <input id = 'emailinp' type = "email" placeholder = "email" maxlength = 320 minlength = 3>
-                    <pre>EnRise
-Empower today, Sustain tomorrow
-Turning <i>waste</i> into valuable products</pre>
                 </div>
+                <pre id="slogan">Empower today, Sustain tomorrow
+Turning <i>waste</i> into valuable products</pre>
                 <!-- <video id = "intro video" src = "./Media/Official EnRise video.mp4" alt = "EnRise's logo" controls loop muted> -->
             </div>
 
@@ -70,10 +73,14 @@ Turning <i>waste</i> into valuable products</pre>
                 <a title = 'Read more' targer = "_blank" href = "./html/waste.html">
                     <img id = "biomass" src = "./Images/deforestation 2.jpg" alt = "image of wasted biomass">
                 </a>
-                <pre  id = 'p1'><b>Deforestation</b>
-Each year 6 million trees are needed to fuel Greece's paper consumption</pre>
-                <pre  id = 'p2'><b>Waste and pollution</b>
-The agricultural sector throws away secondary products, rich in Bio-energy en-mass</pre>
+                <a href="https://www.unep.org/resources/report/unep-food-waste-index-report-2021" title = 'source' class="link" target="_blank">
+                    <pre  id = 'p1'><b>Deforestation</b>
+Each year 6 million trees are needed to fuel Greece's paper consumption and more so worldwide 15 billion trees each year are used to make paper. Estimates say the global tree count has fallen by 46% since the beginning of human civilization. This massive loss affects everything but most importantly our climate and the biodiversity of the planet</pre>
+                </a>
+                <a href="https://time.com/4019277/trees-humans-deforestation/" title = 'source' class="link" target="_blank">
+                    <pre  id = 'p2'><b>Waste and pollution</b>
+The agricultural sector throws away secondary products, rich in Bio-energy en-mass. These materials could be applied to better causes but the agricultureal sector sees them as a burden rather than an asset. This problem isnt unique to the producers, one third of all food produced is lost or wasted. Around 1.3 billion tonnes of food costing close to $940 billion each year. Up to 10% of global greenhouse gases comes from food that is produced, but not eaten.</pre>
+                </a>
             </div>
 
             <div id = "solution" class = "container">
@@ -87,7 +94,7 @@ The agricultural sector throws away secondary products, rich in Bio-energy en-ma
 Bio-pulp is paper made from micro-organisms processing sugars
 We cultivate the organism
 feed it sugars that would have otherwise gone to waste
-and make pul, Bio-pulp
+and make pul, Bio-pulp.
 Once cleaned Bio-pulp can make a sheet of paper exactly the same as a trees pulp would have</pre>
                         </div>
                     </div>
@@ -96,12 +103,51 @@ Once cleaned Bio-pulp can make a sheet of paper exactly the same as a trees pulp
                     <div id = 'secondst'>
                         <div id = 'solholder'>
                             <pre id="enrisesol"><b>EnRise's solution</b>
-The waste produced by the agricultural sector can thus be re purposed
+The waste produced by the agricultural sector can thus be re-purposed
 in order to reduce our needs to cut down trees</pre>
                         </div>
                     </div>
                     <div id = 'secondsi'>
                         <img id = 'im2' src= "./Images/holding paper1.jpg" alt="Picture of Biopult in George's hand">
+                    </div>
+                </div>
+            </div>
+
+            <div id="learnm">
+                <div class = 'button'>
+                    <a href="./html/products.html" class="link" title="The most ecological paper">
+                        <div id = 'held' >Learn more about Bio-pulp</div>
+                    </a>
+                </div>
+            </div>
+
+            <div id = 'stats'>
+                <div class="container" id="hug">
+                    <div id="question">
+                        Have you noticed the price of paper going up in recent years?
+                    </div>
+                    <a title="source" href = 'https://www.ibisworld.com/us/bed/price-of-paper/4595/'>
+                        <img id = 'ibis' src = './Research/paper index price.png'>
+                    </a>
+                    <div id = 'conc'>
+                        <div id="reason">
+                            This is because, thought the number of trees worldwide has grown the ammount of effective trees for creating paper has decreased. All the new trees are a result of efforts to fight climate change and the resulting trees are too young for harvesting, thus, the supply is becoming all the more scarce
+                        </div>
+                        <div id="understanding">
+                            This works to illustrate how much deforestation actually affects us, and that the efforts to fight it, though great, are not really a solution as much as they are a temporary fix. The real way to solve this crysis is to stop deforestation completly
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id = 'forms'>
+                <div class="button">
+                    <div id="lazy">
+                        <a title = 'Give us feedback on our paper'style = 'text-decoration: underline;' href="https://docs.google.com/forms/d/e/1FAIpQLSeQR0NmYO-JKJMY8tGPP0sdKiQV-h4cU68bayR001IHPMqEEQ/viewform" class="link"><div id = 'participation'>Participate in our survey!</div></a>
+                        <div id = 'participation'>
+                            Or scan this qr code
+                        </div>
+                        <img class = 'qr' src="./Assets/EnRise paper feedback google form qr.png">
                     </div>
                 </div>
             </div>
@@ -132,6 +178,9 @@ in order to reduce our needs to cut down trees</pre>
                 </table>
             </div>
         </footer>
+        <div class = 'disclaimer'>
+            All images not owned by EnRise redirect to their sources
+        </div>
     </body>
 </html>
 

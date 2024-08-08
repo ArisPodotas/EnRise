@@ -1,0 +1,23 @@
+#forms{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#participation{
+    text-wrap: wrap;
+    text-align: center;
+}
+#lazy{
+    padding: 5%;
+    display: grid;
+    grid-template: repeat(auto-fit, minmax(0%, 100%)) repeat(auto-fit, minmax(0%, 100%));
+    justify-items: center;
+    align-items: center;
+}
+
+.qr{
+    width: 20%;
+}
+

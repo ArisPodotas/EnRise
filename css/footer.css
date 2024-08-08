@@ -9,12 +9,8 @@ footer{
     background-color: var(--logow);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(30px, 190px));
+    grid-template-rows: repeat(auto-fit, minmax(80px, 190px));
     row-gap: 10%;
-}
-
-#logoFooter{
-    width: 50px;
 }
 
 .footer{
@@ -33,83 +29,37 @@ footer{
 @media (min-width: 1024px) {#lf, #if, #ff, #tf{
     width: 28px;
     margin: 1%;
-}#fimg{
-    width: 50px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 8px;
-    margin-right: 8px;
 }} 
+
 @media (min-width: 1280px) {#lf, #if, #ff, #tf{
     width: 30px;
     margin: 1%;
-}#fimg{
-    width: 30px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 8px;
-    margin-right: 8px;
 }}
+
 /*90% or less*/
 @media (min-width: 1536px) {#lf, #if, #ff, #tf{
     width: 45px;
     margin: 1%;
-}#fimg{
-    width: 45px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 8px;
-    margin-right: 8px;
 }}
 @media (min-width: 1800px) {#lf, #if, #ff, #tf{
     width: 50px;
     margin: 1%;
-}#fimg{
-    width: 50px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 8px;
-    margin-right: 8px;
 }}
 @media (min-width: 2000px) {#lf, #if, #ff, #tf{
     width: 60px;
     margin: 1%;
-}#fimg{
-    width: 60px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 8px;
-    margin-right: 8px;
 }}
 @media (min-width: 2250px) {#lf, #if, #ff, #tf{
     width: 70px;
     margin: 1%;
-}#fimg{
-    width: 70px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 8px;
-    margin-right: 8px;
 }}
 @media (min-width: 2350px) {#lf, #if, #ff, #tf{
     width: 80px;
     margin: 1%;
-}#fimg{
-    width: 80px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 8px;
-    margin-right: 8px;
 }}
 @media (min-width: 2500px) {#lf, #if, #ff, #tf{
     width: 90px;
     margin: 1%;
-}#fimg{
-    width: 100px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 8px;
-    margin-right: 8px;
 }}
 
 /*90% or less*/

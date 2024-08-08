@@ -51,8 +51,8 @@
 
 #model, #Name, #slogan {
     text-align: center;
-    color: var(--logow);
     text-wrap: wrap;
+    color: var(--logow);
 }
 
 #emailinp{

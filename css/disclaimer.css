@@ -1,0 +1,8 @@
+.disclaimer{
+    background-color: var(--logow);
+    text-wrap: wrap;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50%;
+}
+
