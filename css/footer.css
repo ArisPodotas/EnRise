@@ -5,12 +5,15 @@
 /* Date: 06-08-2024 */
 
 footer{
-    color: var(--logod);
     background-color: var(--logow);
+}
+
+#globalf{
+    padding: 5%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(80px, 190px));
-    row-gap: 10%;
+    row-gap: 20%;
 }
 
 .footer{
@@ -63,3 +66,4 @@ footer{
 }}
 
 /*90% or less*/
+
