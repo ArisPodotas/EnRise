@@ -3,7 +3,7 @@
     text-wrap: wrap;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(0%, 35%));
+    grid-template-columns: repeat(auto-fit, minmax(0%, 33%));
     grid-template-rows: repeat(auto-fit, minmax(0%, 100%));
     justify-items: center;
     align-items: center;
@@ -27,12 +27,15 @@
 .thumbnail{
     border-radius: 10%;
     width: 100%;
-
 }
 
 .description{
     text-wrap: wrap;
     text-align: center;
+}
 
+.status{
+    text-decoration: underline;
+    font-size: 70%;
 }
 

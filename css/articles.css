@@ -22,5 +22,10 @@ main{
 
 .head{
     border-radius: 10%;
-    width: 100%;
+    width: 50%;
 }
+
+.lorem{
+    padding: 5%;
+}
+

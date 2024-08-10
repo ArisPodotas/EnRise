@@ -58,6 +58,10 @@ body{
     text-decoration: underline;
 }
 
+h1{
+    color: var(--grad1);
+}
+
 @media (min-width: 1px) {body{font-size: 4px;}}
 @media (min-width: 275px) {body{font-size: 6px;}}
 @media (min-width: 475px) {body{font-size: 8px;}}
