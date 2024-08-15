@@ -28,11 +28,6 @@
     --slogans: 57;
 }
 
-header{
-    background-color: var(--logow);
-    color: var(--logod);
-}
-
 body{
     background-image: linear-gradient(to right, var(--grad1), var(--grad2), var(--grad1));
     margin: 0;
