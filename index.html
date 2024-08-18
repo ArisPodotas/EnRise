@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<!-- Project name: EnRise -->
+<!-- Collaborators: Aris Podotas -->
+<!-- Country: Greece -->
+<!-- City: Athens -->
+<!-- Date: 06-08-2024 -->
+
 <html lang = "en-US">
     <head>
         <meta encoding = "UTF-8">
@@ -11,40 +17,42 @@
         <link href='https://fonts.googleapis.com/css?family=Libre Franklin' rel='stylesheet'>
         <link rel = "stylesheet" href = "./index.css">
         <link rel = "stylesheet" href = "./css/intro.css">
-        <link rel = "stylesheet" href = "./css/footer.css">
-        <link rel = "stylesheet" href = "./css/header.css">
-        <link rel = "stylesheet" href = "./css/problem.css">
-        <link rel = "stylesheet" href = "./css/solution.css">
-        <link rel = "stylesheet" href = "./css/form.css">
-        <link rel = "stylesheet" href = "./css/stats.css">
-        <link rel = "stylesheet" href = "./css/disclaimer.css">
     </head>
 
     <body>
         <header>
-            <div id = "tabline" class = "container">
-                <div id = "headerLeft" class = "element">
-                    <a title = 'Homepage' href = "./index.html">
-                        <img src = "./Logos/enrisesymboltransparent.png" id = 'fimg'>
-                    </a>
-                </div>
-                <div id = "soc1" class = "element">
-                    <a targer = "_blank" href = "https://www.instagram.com/enrise.biotech/">
-                        <img id = "insta" src = "./Logos/instagram logo.png">
-                    </a>
-                </div>
-                <div id = "soc2" class = "element">
-                    <a targer = "_blank" href = "https://www.linkedin.com/company/enrise-biotech/?viewAsMember=true">
-                        <img id = "linkedin" src = "./Logos/linkedin logo.png">
-                    </a>
-                </div>
-                <div id = 'soc3' class = 'element'>
-                    <a target = '_blank' href="https://www.instagram.com/enrise.biotech/"><img id = 'twitter' src = "./Logos/twtr lg tr bw.png"></a>
-                </div>
-                <div id = 'soc4' class = 'element'>
-                    <a target = '_blank' href="https://www.instagram.com/enrise.biotech/"><img id = 'facebook' src = "./Logos/fb tr lg vw.png"></a>
-                </div>
+            <div id="headline" class="">
+                <a title = 'Homepage' href = "./index.html">
+                    <img src = "./Logos/enrisesymboltransparent.png" id = 'fimg'>
+                </a>
             </div>
+            <div id="scroll-bar" class="scroll-watcher">
+            </div>
+            <div class="container" id="tabline">
+                <a title = 'About EnRise' class = 'link footer' href="./html/about.html">About us</a>
+                <a title = 'Our Vision' class = 'link footer' href="./html/vision.html">Vision</a>
+                <a title = 'Company Organisation' class = 'link footer' href="./html/organisation.html">Organisation</a>
+                <a title = 'Our Team' class = 'link footer' href="./html/team.html">Team</a>
+                <a title = 'Our News' class = 'link footer' href="./html/news.html">News</a>
+            </div>
+            <!-- <div id = "tabline" class = "container"> -->
+            <!--     <div id = "soc1" class = "element"> -->
+            <!--         <a targer = "_blank" href = "https://www.instagram.com/enrise.biotech/"> -->
+            <!--             <img id = "insta" src = "./Logos/instagram logo.png"> -->
+            <!--         </a> -->
+            <!--     </div> -->
+            <!--     <div id = "soc2" class = "element"> -->
+            <!--         <a targer = "_blank" href = "https://www.linkedin.com/company/enrise-biotech/?viewAsMember=true"> -->
+            <!--             <img id = "linkedin" src = "./Logos/linkedin logo.png"> -->
+            <!--         </a> -->
+            <!--     </div> -->
+            <!--     <div id = 'soc3' class = 'element'> -->
+            <!--         <a target = '_blank' href="https://www.instagram.com/enrise.biotech/"><img id = 'twitter' src = "./Logos/twtr lg tr bw.png"></a> -->
+            <!--     </div> -->
+            <!--     <div id = 'soc4' class = 'element'> -->
+            <!--         <a target = '_blank' href="https://www.instagram.com/enrise.biotech/"><img id = 'facebook' src = "./Logos/fb tr lg vw.png"></a> -->
+            <!--     </div> -->
+            <!-- </div> -->
         </header>
 
         <main>
@@ -83,21 +91,21 @@ The agricultural sector throws away secondary products, rich in Bio-energy en-ma
                     </div>
                     <div id = 'firstst'>
                         <div id = 'solholder'>
-                            <pre id="enrisesol"><h1>EnRise's solution</h1>
+                            <pre id="enrisesol"><h1>EnRise's solution</h1><pre class="info" id = 'enrisesol'>
 Bio-paper is paper made from micro-organisms processing sugars
 We cultivate the organism
 feed it sugars that would have otherwise gone to waste
 and make pul, Bio-paper.
-Once cleaned Bio-paper can make a sheet of paper exactly the same as a trees pulp would have</pre>
+Once cleaned Bio-paper can make a sheet of paper exactly the same as a trees pulp would have</pre></pre>
                         </div>
                     </div>
                 </div>
                 <div id = 'seconds'>
                     <div id = 'secondst'>
                         <div id = 'solholder'>
-                            <pre id="enrisesol"><h1>EnRise's solution</h1>
+                            <pre id="enrisesol"><h1>EnRise's solution</h1><pre class="info" id="enrisesol">
 The waste produced by the agricultural sector can thus be re-purposed
-in order to reduce our needs to cut down trees</pre>
+in order to reduce our needs to cut down trees</pre></pre>
                         </div>
                     </div>
                     <div id = 'secondsi'>
@@ -107,8 +115,8 @@ in order to reduce our needs to cut down trees</pre>
             </div>
 
             <div id="learnm">
-                <div class = 'button'>
-                    <a target = '_blank' href="./html/products.html" class="link" title="The most ecological paper">
+                <div class = 'button dump'>
+                    <a target = '_blank' href="./html/products.html" class="info" title="The most ecological paper">
                         <div id = 'held' >Learn more about Bio-paper</div>
                     </a>
                 </div>
@@ -176,6 +184,10 @@ in order to reduce our needs to cut down trees</pre>
         <div class = 'disclaimer'>
             All images not owned by EnRise redirect to their sources
         </div>
+        <div class = 'hidden btn float'>
+            <a href="#tabline" class="link"><img class = 'cube' src="./Assets/top.png"></a>
+        </div>
+        <script type = 'text/javascript' src = './index.js'></script>
     </body>
 </html>
 
