@@ -396,7 +396,7 @@ header{
 }
 
 .cube{
-    width: 35%;
+    width: 1.8vw;
 }
 
 footer{
@@ -452,119 +452,4 @@ footer{
     opacity: 0;
     display: none;
 }
-/**/
-/* /* @media (min-width: 1px) {body{font-size: 4px;}} */ */
-/* /* @media (min-width: 275px) {body{font-size: 6px;}} */ */
-/* /* @media (min-width: 475px) {body{font-size: 8px;}} */ */
-/* /* @media (min-width: 640px) {body{font-size: 12px;}} */ */
-/* /* @media (min-width: 768px) {body{font-size: 16px;}} */ */
-/* @media (min-width: 1024px) {#lf, #if, #ff, #tf{ */
-/*     width: 28px; */
-/*     margin: 1%; */
-/* }#linkedin, #insta, #facebook, #twitter{ */
-/*     width: 28px; */
-/* }#fimg{ */
-/*     width: 30px; */
-/*     margin-top: 2.5%; */
-/*     margin-bottom: 2.5%; */
-/*     margin-left: 8px; */
-/*     margin-right: 8px; */
-/* }}  */
-/**/
-/* @media (min-width: 1280px) {#lf, #if, #ff, #tf{ */
-/*     width: 35px; */
-/*     margin: 1%; */
-/* }#linkedin, #insta, #facebook, #twitter{ */
-/*     width: 30px; */
-/* }#fimg{ */
-/*     width: 30px; */
-/*     margin-top: 2.5%; */
-/*     margin-bottom: 2.5%; */
-/*     margin-left: 8px; */
-/*     margin-right: 8px; */
-/* }} */
-/**/
-/* /*90% or less*/ */
-/* @media (min-width: 1536px) {#lf, #if, #ff, #tf{ */
-/*     width: 45px; */
-/*     margin: 1%; */
-/* }#linkedin, #insta, #facebook, #twitter{ */
-/*     width: 45px; */
-/* }#fimg{ */
-/*     width: 45px; */
-/*     margin-top: 2.5%; */
-/*     margin-bottom: 2.5%; */
-/*     margin-left: 8px; */
-/*     margin-right: 8px; */
-/* }} */
-/**/
-/* @media (min-width: 1800px) {#lf, #if, #ff, #tf{ */
-/*     width: 50px; */
-/*     margin: 1%; */
-/* }#linkedin, #insta, #facebook, #twitter{ */
-/*     width: 50px; */
-/* }#fimg{ */
-/*     width: 58px; */
-/*     margin-top: 2.5%; */
-/*     margin-bottom: 2.5%; */
-/*     margin-left: 8px; */
-/*     margin-right: 8px; */
-/* }} */
-/**/
-/* @media (min-width: 2000px) {#lf, #if, #ff, #tf{ */
-/*     width: 60px; */
-/*     margin: 1%; */
-/* }#linkedin, #insta, #facebook, #twitter{ */
-/*     width: 60px; */
-/* }#fimg{ */
-/*     width: 70px; */
-/*     margin-top: 2.5%; */
-/*     margin-bottom: 2.5%; */
-/*     margin-left: 8px; */
-/*     margin-right: 8px; */
-/* }} */
-/**/
-/* /* @media (min-width: 2400px) {body{font-size: 56px;}} */ */
-/* /* @media (min-width: 3200px) {body{font-size: 72px;}} */ */
-/* /* @media (min-width: 3800px) {body{font-size: 84px;}} */ */
-/* /* @media (min-width: 4200px) {body{font-size: 100px;}} */ */
-/**/
-/* @media (min-width: 2250px) {#linkedin, #insta, #facebook, #twitter{ */
-/*     width: 70px; */
-/* }#lf, #if, #ff, #tf{ */
-/*     width: 70px; */
-/*     margin: 1%; */
-/* }#fimg{ */
-/*     width: 80px; */
-/*     margin-top: 2.5%; */
-/*     margin-bottom: 2.5%; */
-/*     margin-left: 8px; */
-/*     margin-right: 8px; */
-/* }} */
-/**/
-/* @media (min-width: 2350px) {#linkedin, #insta, #facebook, #twitter{ */
-/*     width: 80px; */
-/* }#lf, #if, #ff, #tf{ */
-/*     width: 80px; */
-/*     margin: 1%; */
-/* }#fimg{ */
-/*     width: 90px; */
-/*     margin-top: 2.5%; */
-/*     margin-bottom: 2.5%; */
-/*     margin-left: 8px; */
-/*     margin-right: 8px; */
-/* }} */
-/**/
-/* @media (min-width: 2500px) {#linkedin, #insta, #facebook, #twitter{ */
-/*     width: 90px; */
-/* #lf, #if, #ff, #tf{ */
-/*     width: 90px; */
-/*     margin: 1%; */
-/* }}#fimg{ */
-/*     width: 140px; */
-/*     margin-top: 2.5%; */
-/*     margin-bottom: 2.5%; */
-/*     margin-left: 8px; */
-/*     margin-right: 8px; */
-/* }} */
-/**/
+
