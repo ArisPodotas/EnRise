@@ -211,7 +211,7 @@ header{
 }
 
 #s1{
-    width: 100%;
+    width: 1fr;
     margin-top: 15vh;
     margin-bottom: 15vg;
     background-image: url("./Images/lab picture 1.jpg" );
@@ -220,7 +220,7 @@ header{
 }
 
 #s2{
-    width: 100%;
+    width: 1fr;
     margin-top: 15vh;
     margin-bottom: 15vh;
     background-image: url("./Images/holding paper1.jpg");
