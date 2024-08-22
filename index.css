@@ -26,6 +26,8 @@
     --logowg: #9c9c9e;
     /* for the wave keyframe*/
     --transitions: #426490;
+    /* Gear color*/
+    --gear: #1b323e;
     /* Fonts */
     --sloganf: Libre Franklin;
     --backupfont: Verdana;
@@ -53,24 +55,24 @@ body{
     text-decoration: none;
 }
 
-.info:hover{
-    text-decoration: underline;
-}
+/* un comment to make the regular text be hover undrelined */
+/* .info:hover{ */
+/*     text-decoration: underline; */
+/* } */
 
 .link{
     color: var(--logod);
     text-decoration: none;
     animation: links;
-    animation-timeline: hover;
 }
 
 .link::before, .link::after{
     display: block;
     content: "";
     background-color: var(--logod);
-    border-radius: 15%;
+    border-radius: 15vh;
     width: 100%;
-    height: 2px; /* Assuming you want a line effect; you can change the height */
+    height: 1vh; /* Assuming you want a line effect; you can change the height */
     opacity: 0;
 }
 
@@ -94,7 +96,7 @@ h1::after, h1::before {
     background-color: var(--grad1);
     border-radius: 15%;
     width: 100%;
-    height: 2px; /* Assuming you want a line effect; you can change the height */
+    height: 1vh; /* Assuming you want a line effect; you can change the height */
     opacity: 0;
 }
 
@@ -109,40 +111,20 @@ h1:hover::before, h1:hover::after {
 }
 
 header{
-    background-color: var(--logow);
+    background-color: var(--gear);
 }
 
-#headline{
-    width: 100%;
-    background-color: var(--logow);
-    display: grid;
-    grid-template-areas: 'a';
-    justify-content: center;
+#tabs{
+    color: var(--logow);
 }
 
 #fimg{
-    width: 3.5vw;
+    width: 5.5vw;
     margin-top: 1.5%;
     margin-bottom: 2px;
     padding-top: 2px;
     padding-bottom: 1.5%;
     grid-area: a;
-}
-
-#fimg:hover{
-    animation: clock 1s ease-in-out 1; /*, jump 1s 1;*/
-}
-
-@keyframes jump {
-    0% {transform: translateY(0px);}
-    25%{transform: translateY(-10px);}
-    50%{transform: translateY(0px);}
-    100%{transform: translateY(0px);}
-}
-
-@keyframes clock {
-    0% {transform: rotate(0deg);}
-    100%{transform: rotate(360deg);}
 }
 
 .scroll-watcher{
@@ -170,6 +152,7 @@ header{
     grid-template-rows: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     justify-items: center;
+    text-align: center;
     align-items: center;
 }
 
@@ -227,14 +210,37 @@ header{
     grid-row: 2 / 2;
 }
 
-#solution{
+#s1{
     width: 100%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
+    margin-top: 15vh;
+    margin-bottom: 15vg;
+    background-image: url("./Images/lab picture 1.jpg" );
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    height: 120vh;
 }
 
-#firsts, #seconds{
+#s2{
+    width: 100%;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    background-image: url("./Images/holding paper1.jpg");
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    height: 100vh;
+}
+
+#firsts{
+    margin: 2.5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10%, 50%));
+    grid-template-rows: repeat(auto-fit, minmax(10%, 100%));
+    column-gap: 10%;
+    justify-items: center;
+    align-items: center;
+}
+
+#seconds{
     margin: 2.5%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10%, 50%));
@@ -245,42 +251,41 @@ header{
 }
 
 #firstst{
-    grid-column: 2 / 2;
-    grid-row: 1 / 1;
-    border-radius: 10%;
+    opacity: 0.4;
+    transition: .5s ease;
+    margin-bottom: 20vh;
+    margin-top: 20vh;
+    border-radius: 15%;
     background-color: var(--logow);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
 }
 
 #secondst{
-    grid-column: 1 / 1;
-    grid-row: 1 / 1;
-    border-radius: 10%;
+    opacity: 0.4;
+    transition: .5s ease;
+    margin-bottom: 20vh;
+    margin-top: 20vh;
+    border-radius: 15%;
     background-color: var(--logow);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
-}
-
-#firstsi{
-    width: 100%;
-    grid-column: 1 / 1;
-    grid-row: 1 / 1;
-}
-
-#secondsi{
-    width: 100%;
     grid-column: 2 / 2;
     grid-row: 1 / 1;
 }
 
+#firstst:hover, #secondst:hover{
+    opacity: 1;
+}
+
 #im1, #im2{
-    border-radius: 10%;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 #solholder{
     text-align: center;
-    margin: 18%;
+    margin: 10%;
 }
 
 #enrisesol{
@@ -305,7 +310,7 @@ header{
 
 .button{
     background-color: var(--logow);
-    border-radius: 10%;
+    border-radius: 15%;
     margin: minmax(5%, 50%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
 }
@@ -345,7 +350,7 @@ header{
 
 #ibis{
     grid-area: 2 / 2 / 2 / 2;
-    border-radius: 10%;
+    border-radius: 15%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
     width: 100%;
 }
@@ -408,7 +413,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(80px, 190px));
-    row-gap: 20%;
+    row-gap: 15vw;
 }
 
 .footer{
@@ -442,7 +447,7 @@ footer{
     height: minmax(1%, 5%);
     padding: 0.5%;
     box-shadow: 3px 3px 10px var(--logod);
-    border-radius: 10%;
+    border-radius: 15%;
     top: 88%;
     left: 92%;
     transform: translate(-50%, -50%); /* Center the cube */

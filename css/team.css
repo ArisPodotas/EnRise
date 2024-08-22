@@ -28,6 +28,10 @@
     grid-area: 1 / 1 / 4 / 1;
 }
 
+#EnRise{
+    border-radius: 0%;
+}
+
 .contact{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
@@ -54,5 +58,15 @@
 .position{
     color: var(--logod);
     text-decoration: underline;
+}
+
+.forabout{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
+    grid-template-rows: repeat(auto-fit, minmax(0%, 100%));
+    justify-items: center;
+    align-items: center;
+    text-align: center;
 }
 

@@ -6,7 +6,7 @@ main{
     margin: 5%;
     background-color: var(--logow);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 10%;
+    border-radius: 15vh;
 }
 
 .topdown{
@@ -21,7 +21,7 @@ main{
 }
 
 .head{
-    border-radius: 10%;
+    border-radius: 15vh;
     width: 50%;
 }
 
@@ -29,3 +29,6 @@ main{
     padding: 5%;
 }
 
+#secondline{
+    padding-top: 0%;
+}
